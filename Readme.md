@@ -10,6 +10,8 @@ Raspberry Pi 4 UEFI Firmware Images
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
 
+This fork contains the patch to re-enabled iSCSI on EDK2 release and tracks parent v1.22 release. [See issue described here](https://github.com/pftf/RPi4/issues/125).
+
 # Initial Notice
 
 __PLEASE READ THE FOLLOWING:__  
