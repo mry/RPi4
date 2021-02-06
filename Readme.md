@@ -49,6 +49,9 @@ __PLEASE READ THE FOLLOWING:__
   * `0001-MdeModulePkg-UefiBootManagerLib-Signal-ReadyToBoot-o.patch`, so that the
     Graphical console is set as default.
 
+* This fork contains the patch to re-enabled iSCSI on EDK2 release and tracks parent v1.22 release. [See issue described here](https://github.com/pftf/RPi4/issues/125).
+  * [iscsi_reenable.patch](https://github.com/mry/RPi4/blob/master/iscsi_reenable.patch) is applied.
+
 🔺🔺🔺🔺🔺🔺🔺🔺🔺
 
 # Installation
