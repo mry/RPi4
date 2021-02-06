@@ -45,7 +45,7 @@ deploy:
   description: Raspberry Pi 4 UEFI Firmware $(APPVEYOR_REPO_TAG_NAME)
   provider: GitHub
   auth_token:
-    secure: w5YuQOim+G+U7FxxrL0BH6t0trCWKCs9DMZlF4xqF2XGC6SymzwaJrPWrKeeJHPK
+    secure: NZrkzJXfvf2ZTfcyOtQ8l/sOFvNlQ1SovMA1PgS8QhUDrKgRbCEAuzSdCY5Ytucp
   artifact: /.*\.zip/
   draft: false
   prerelease: false
