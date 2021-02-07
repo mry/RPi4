@@ -10,7 +10,7 @@ Raspberry Pi 4 UEFI Firmware Images
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
 
-This fork contains the patch to re-enabled iSCSI on EDK2 release and tracks parent v1.22 release. [See issue described here](https://github.com/pftf/RPi4/issues/125).
+This fork contains the patch to re-enable iSCSI on EDK2 release and tracks parent v1.22 release. [See issue described here](https://github.com/pftf/RPi4/issues/125).
 
 # Initial Notice
 
@@ -56,7 +56,7 @@ __PLEASE READ THE FOLLOWING:__
 
 # Installation
 
-* Download the latest archive from the [Releases](https://github.com/pftf/RPi4/releases)
+* Download the latest archive from the [Releases](https://github.com/mry/RPi4/releases)
   repository.
 
 * Create an SD card or a USB drive, with at least one partition (it can be a regular
@@ -88,7 +88,7 @@ card or on a USB drive in `efi/boot/bootaa64.efi`, you can let the UEFI system r
 
 The firmware provided in the zip archive is the `RELEASE` version but you can also find
 a `DEBUG` build of the firmware in the
-[AppVeyor artifacts](https://ci.appveyor.com/project/pbatard/RPi4/build/artifacts).
+[AppVeyor artifacts](https://ci.appveyor.com/project/emryl/rpi4/build/artifacts).
 
 The provided firmwares should be able to auto-detect the UART being used (PL011 or mini
 UART) according to whether `config.txt` contains the relevant overlay or not. The default
