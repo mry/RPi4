@@ -5,6 +5,11 @@ Raspberry Pi 4 UEFI Firmware Images
 [![Github stats](https://img.shields.io/github/downloads/pftf/RPi4/total.svg?style=flat-square)](https://github.com/pftf/RPi4/releases)
 [![Release](https://img.shields.io/github/release-pre/pftf/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
 
+## This iSCSI Fork
+[![Build status](https://img.shields.io/appveyor/ci/emryl/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/emryl/RPi4)
+[![Github stats](https://img.shields.io/github/downloads/mry/RPi4/total.svg?style=flat-square)](https://github.com/mry/RPi4/releases)
+[![Release](https://img.shields.io/github/release-pre/mry/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
+
 # Summary
 
 This repository contains __EXPERIMENTAL__ installable builds of the official
